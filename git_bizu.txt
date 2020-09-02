@@ -1,0 +1,17 @@
+git clone <url>
+git add <file> -> to add file for track in commit
+git commit -m "a message" -> save the snapshot of the current state of the local repository
+git commit -am "a message" -> add files changed to repository and save the current state of the local repository 
+git status -> show the status of the local repository in comparison of the origin repository
+git push -> push the changes to remote repository
+git pull -> get the lastest version of git remote repository
+
+git log -> show the commits details of the repository
+git reset --hard <commit hash> -> reset the repository from previous commit (hash may be read on git log)
+git reset --hard origin/master -> reset the local repository from remote repository status
+
+BRANCH
+git branch -> show me what branch I'm working on and if there are other branches on the repository
+git checkout -b <new_branch_name> -> creat a new branch
+git checkout <branch_name> -> switch from the current branch to other branch
+git merge <branch_name> -> merge the <branch_name> to my current branch that I'm working on
