@@ -1,16 +1,27 @@
-#header {
-	color: red;
-	width: 80%;
-	background-color: #666666;
-	margin: 30px;
-	font-family: arial;
-	padding: 10px;
-	border-width: 3px;
+.link_head {
+	display: inline-block;
+	line-height: 24px;
+	outline: none;
+	vertical-align: middle;
+	color: rgba(0,0,0,0.87);
+	text-decoration: none;
 }
 
 #links {
 	width: 80%;
 	text-align: right;
+	background-color: transparent;
+	height: 30px;
+	margin: 5px;
+	padding: 10px;
+}
+
+#palmeiras {
+	background-image: url("palmeiras.png");
+	height: 200px;
+	width: 80%;
+	background-repeat: no-repeat;
+	padding-left: 150px;
 }
 
 form {
@@ -22,6 +33,10 @@ form {
 	text-align: left;
 }
 
+form td {
+	padding: 5px;
+}
+
 #advanced_div {
 	width: 80%;
 	text-align: center;
@@ -31,4 +46,6 @@ form {
 #advanced_button {
 	color: white;
 	background-color: blue;
+	font-family: arial;
+	font-weight: 700;
 }
