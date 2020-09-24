@@ -1,0 +1,11 @@
+body {
+    padding: 10px;
+}
+
+img {
+	width: 20px;
+}
+
+.listing {
+	border-style: groove;
+}
